@@ -1,0 +1,22 @@
+.headBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  color: #ffffff;
+}
+
+.navItems {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.list_decoration {
+  text-decoration: none;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.list_decoration:hover {
+  text-decoration: underline;
+  color: red;
+}

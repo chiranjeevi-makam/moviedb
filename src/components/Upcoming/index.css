@@ -1,0 +1,35 @@
+.displayMovies {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.posterDisplay {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 14px;
+}
+.specifications {
+  height: 300px;
+  width: 250px;
+}
+.title {
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.average {
+  color: grey;
+  font-family: 'Roboto';
+}
+.mainHead {
+  padding-left: 40px;
+  font-family: 'Roboto';
+}
+.detailStructure {
+  display: flex;
+  align-items: center;
+}
